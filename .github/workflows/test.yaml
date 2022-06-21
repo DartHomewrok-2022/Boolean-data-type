@@ -6,8 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout the repository
-      - uses: actions/checkout@v2
-      - with:
+        uses: actions/checkout@v2
+        with:
           repository: dart-test-2022/boolen-data-type
           path: test
       - uses: dart-lang/setup-dart@v1.3
