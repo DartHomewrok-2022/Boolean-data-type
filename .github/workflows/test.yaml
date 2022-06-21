@@ -12,5 +12,4 @@ jobs:
           path: test
       - uses: dart-lang/setup-dart@v1.3
       - run: dart pub get
-
       - run: dart test
